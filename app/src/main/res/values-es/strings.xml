@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vectores</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="view">Visualizar Vectores</string>
+    <string name="magnitud">Magnitud</string>
+    <string name="angulo">Ángulo</string>
+    <string name="escala">Escala de Vectores</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="decimales">Cantidad de Decimales</string>
+    <string name="action_settings">Reniciar</string>
+    <string name="nav_header">Universidad Mariano Galvez</string>
+    <string name="title_activity_edit_vector">Editar Vector</string>
+    <string name="coordenada">Sistema de Coordenadas</string>
+    <string name="Fx">Fx</string>
+    <string name="Fy">Fy</string>
+    <string name="vista">Visualizacion</string>
+    <string name="comunicacion">Comunicate</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="contacto">Contacto</string>
+    <string name="cartesiana">Cartesianas</string>
+    <string name = "polar">Polares</string>
+    <string name="poligono">Poligono</string>
+    <string name="plano">Plano</string>
+    <string name="toast_error">Ingrese un valor valido</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="preguntas">Preguntas Frecuentes</string>
+    <string name="exit">Presione nuevamente para salir</string>
+    <string name="id_app_admob">ca-app-pub-8259392956892679~8135416295</string>
+    <string name="id_banner">ca-app-pub-8259392956892679/9803721185</string>
+</resources>

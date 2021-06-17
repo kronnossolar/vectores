@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "188062734308",
+    "firebase_url": "https://vectores-cdefa.firebaseio.com",
+    "project_id": "vectores-cdefa",
+    "storage_bucket": "vectores-cdefa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188062734308:android:7c79e88205bce62f",
+        "android_client_info": {
+          "package_name": "com.app.vector.vectores"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188062734308-hfbe11ab3jbtjpege0q4e2m2lo1gfphi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1VuisO_dF10NSwBExNLNSGtqN_x_B-0s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

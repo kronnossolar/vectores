@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/decimales"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="@string/decimales" />
+        <item
+            android:id="@+id/escala"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="@string/escala" />
+        <item
+            android:id="@+id/coordenadas"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="@string/coordenada" />
+        <item
+            android:id="@+id/view"
+            android:title="@string/vista"
+            android:icon="@android:drawable/ic_menu_view" />
+
+    </group>
+
+    <!--<item android:title="@string/comunicacion">
+        <menu>
+            <item
+                android:id="@+id/contacto"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="@string/contacto" />
+        </menu>
+    </item>-->
+
+</menu>

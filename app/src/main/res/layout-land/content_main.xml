@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.app.vector.vectores.view.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilMagnitud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/btn_agregar">
+
+            <EditText
+                android:id="@+id/txt_magnitud"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/btn_agregar"
+                android:layout_alignParentStart="true"
+                android:ems="10"
+                android:hint="@string/magnitud"
+                android:inputType="numberDecimal" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilAngulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tilMagnitud">
+
+            <EditText
+                android:id="@+id/txt_angulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:ems="10"
+                android:hint="@string/angulo"
+                android:inputType="numberDecimal" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageButton
+            android:id="@+id/btn_agregar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="200dp"
+            android:adjustViewBounds="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="fitCenter"
+            android:src="@drawable/add" />
+
+        <ImageButton
+            android:id="@+id/btn_editar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/btn_agregar"
+            android:layout_alignTop="@+id/btn_agregar"
+            android:layout_marginStart="81dp"
+            android:adjustViewBounds="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="fitCenter"
+            android:src="@drawable/edit" />
+
+        <ImageButton
+            android:id="@+id/btn_calcular"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/btn_editar"
+            android:layout_marginStart="30dp"
+            android:layout_toEndOf="@+id/btn_editar"
+            android:adjustViewBounds="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="fitCenter"
+            android:src="@drawable/accept" />
+
+        <Button
+            android:id="@+id/btn_visualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tilAngulo"
+            android:layout_marginTop="46dp"
+            android:drawablePadding="20dp"
+            android:drawableStart="@drawable/ic_menu_view"
+            android:gravity="left|center_vertical"
+            android:paddingEnd="50dp"
+            android:paddingStart="160dp"
+            android:text="@string/view" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

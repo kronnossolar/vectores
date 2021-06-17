@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Vectors</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="view">View Vectors</string>
+    <string name="magnitud">Magnitude</string>
+    <string name="angulo">Angle</string>
+    <string name="escala">Vectors Scale</string>
+    <string name="aceptar">Acept</string>
+    <string name="decimales">Number of Decimals</string>
+    <string name="action_settings">Clear Data</string>
+    <string name="nav_header">Universidad Mariano Galvez</string>
+    <string name="title_activity_edit_vector">Edit Vector</string>
+    <string name="coordenada">Coordinate System</string>
+    <string name="Fx">Fx</string>
+    <string name="Fy">Fy</string>
+    <string name="vista">Display</string>
+    <string name="comunicacion">Communicate</string>
+    <string name="ayuda">Help</string>
+    <string name="contacto">Contact</string>
+    <string name="cartesiana">Cartesian</string>
+    <string name="polar">Polar</string>
+    <string name="poligono">Polygon</string>
+    <string name="plano">Cartesian Plane</string>
+    <string name="toast_error">Enter a valid value</string>
+    <string name="cancelar">Cancel</string>
+    <string name="preguntas">Frequently Asked Questions</string>
+    <string name="exit">Please click BACK again to exit</string>
+    <string name="id_app_admob">ca-app-pub-8259392956892679~8135416295</string>
+    <string name="id_banner">ca-app-pub-8259392956892679/9803721185</string>
+</resources>
